@@ -156,12 +156,15 @@
   <ItemGroup>
     <ClCompile Include="AdventOfCode2022.cpp" />
     <ClCompile Include="DayOne.cpp" />
+    <ClCompile Include="DayTwo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Inputs\Day1.txt" />
+    <Content Include="Inputs\Day2.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DayOne.hpp" />
+    <ClInclude Include="DayTwo.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
