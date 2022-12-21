@@ -7,14 +7,14 @@
 
 #include <iostream>
 
-#include "DaySeven.hpp"
+#include "DayEight.hpp"
 using namespace std;
 
 int main(int argc, char* argv[])
 {
     cout << "Advent Of Code 2022: Starting...\n";
 
-    advent_of_code::DaySeven day;
+    advent_of_code::day_eight day;
     day.part_one();
     day.part_two();
     
